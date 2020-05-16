@@ -10,7 +10,7 @@ from ..layers.wrappers import Wrapper
 # `pydot` is an optional dependency,
 # see `extras_require` in `setup.py`.
 try:
-    import pydot
+    import pydot_ng as pydot
 except ImportError:
     pydot = None
 
